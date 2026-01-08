@@ -17,7 +17,7 @@ let money = 1000.50;
 console.log("money:"+ money);
 
 //5. Person's email address: "john.doe@example.com"
-let emailAddress = john.doe@example.com;
+let emailAddress = "john.doe@example.com";
 console.log("emailAddress:"+ emailAddress);
 
 // Coordinates of a location (latitude, longitude): 37.7749, -122.4194
