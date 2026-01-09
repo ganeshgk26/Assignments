@@ -30,5 +30,18 @@ console.log("locationLongitude:"+ locationLongitude);
 let maritalStatus = true;
 console.log("martialStatus:"+ maritalStatus);
 
+//Person details
+let personDetails = {
+    personOccupation: "Softwate Engineer",
+    personFavColor: "blue",
+    personBloodType: 'A',
+    personEyeColor: "Brown",
+    PersonBirthPlace: "New york",
 
+}
 
+console.log("personOccupation:"+personDetails.personOccupation);
+console.log("personFavcolor:"+personDetails.personFavColor);
+console.log("personBloodType:"+personDetails.personBloodType);
+console.log("personEyeColor:"+personDetails.personEyeColor);
+console.log("personBirthPlace:"+personDetails.PersonBirthPlace);
