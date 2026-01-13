@@ -26,5 +26,18 @@ let age;
 console.log(age);
 
 //6. symbol
+var countryOfOrigin= Symbol();
+let productDetails = {
+    productName:"One plus",
+    productPrice:6000,
+    [countryOfOrigin]:'Japan',
+    eligibleForReturn:false
+
+}
+console.log(productDetails);
+console.log(productDetails[countryOfOrigin]);
+
+
+
 
 
