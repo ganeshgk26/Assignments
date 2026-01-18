@@ -1,0 +1,49 @@
+//Conditional Statements : Writing conditions along with statements. 
+// So whenever Node.js is going to run the statement, first it is going to check the condition. If the condition satisfies, then only it is going to run the statement. 
+
+// There are two different types of conditional statements. 
+
+//1. if...else statement ==> When we don't know the result of condition before execution.
+//2. switch statement ==> When we know the result of condition before execution.Now, we want to choose one option among multiple
+
+// 1. nested if...else statement ==> if...else statement inside another if...else statement.
+let percentage: number =30;
+
+if (percentage >= 85){
+    console.log("Grade A");
+    if (percentage >= 90){
+        console.log("Distinction");
+        console.log("Congradulation! You will get gold medal.");
+    }
+else{
+    console.log("You just missed distinction by " + (90 - percentage)+ "marks.");
+}
+}else if (percentage >= 70) {
+    console.log("Grade B");
+}else if (percentage >= 50){
+    console.log("Grade C");
+}else{
+    console.log("You got failed ");
+}
+
+//2. switch statement ==> When we know the result of condition before execution.
+// Now, we want to choose one option among multiple
+
+let priority: string = "High";
+
+switch(priority){
+    case "High":
+    console.log("This defect has highest priority");
+    console.log("This defect need to fixed immediately");
+    break;
+    case "Medium":
+    console.log("This defect has highest priority");
+    console.log("This defect need to fixed soon but not urgent");
+    break;
+    case "Low":
+    console.log("This defect has low priority");
+    console.log("This defect can wait for sometime");
+    break;
+    default:
+        console.log("Invalid priority")
+}
